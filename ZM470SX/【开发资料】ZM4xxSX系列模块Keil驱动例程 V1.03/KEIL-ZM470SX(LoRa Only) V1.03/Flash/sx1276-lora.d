@@ -1,0 +1,9 @@
+.\flash\sx1276-lora.o: ZM470SX\sx1276-LoRa.c
+.\flash\sx1276-lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\sx1276-lora.o: ZM470SX\platform.h
+.\flash\sx1276-lora.o: ZM470SX\radio.h
+.\flash\sx1276-lora.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\sx1276-lora.o: ZM470SX\sx1276-Hal.h
+.\flash\sx1276-lora.o: ZM470SX\sx1276.h
+.\flash\sx1276-lora.o: ZM470SX\sx1276-LoRaMisc.h
+.\flash\sx1276-lora.o: ZM470SX\sx1276-LoRa.h

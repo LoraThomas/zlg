@@ -1,0 +1,75 @@
+Dependencies for Project 'ZM470SX-M', Target 'LPC1114 Flash': (DO NOT MODIFY !)
+F (.\startup_LPC11xx.s)(0x4B619344)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I.\driver -I.\LPC11xx -I.\USER_CODE -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1"--list .\flash\startup_lpc11xx.lst --xref -o .\flash\startup_lpc11xx.o --depend .\flash\startup_lpc11xx.d)
+F (.\system_LPC11xx.c)(0x5531CC55)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\system_lpc11xx.o --omf_browse .\flash\system_lpc11xx.crf --depend .\flash\system_lpc11xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\LPC11xx\LPC11xx.h)(0x4C8CFAD2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (.\LPC11xx\system_LPC11xx.h)(0x4C8A73F4)
+F (.\core_cm0.c)(0x4B211284)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\core_cm0.o --omf_browse .\flash\core_cm0.crf --depend .\flash\core_cm0.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+F (.\USER_CODE\main.c)(0x590A89B6)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (.\LPC11xx\LPC11xx.h)(0x4C8CFAD2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (.\LPC11xx\system_LPC11xx.h)(0x4C8A73F4)
+I (.\driver\uart.h)(0x58F98203)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (.\ZM470SX-M\platform.h)(0x55349C32)
+I (.\ZM470SX-M\radio.h)(0x559628C9)
+I (.\ZM470SX-M\sx1276-LoRa.h)(0x59099F58)
+I (.\ZM470SX-M\sx1276-Hal.h)(0x5535F115)
+I (.\ZM470SX-M\sx1276.h)(0x5909A17A)
+F (.\USER_CODE\note.txt)(0x5535EE85)()
+F (.\driver\Uart.c)(0x590988DD)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\uart.o --omf_browse .\flash\uart.crf --depend .\flash\uart.d)
+I (.\LPC11xx\LPC11xx.h)(0x4C8CFAD2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (.\LPC11xx\system_LPC11xx.h)(0x4C8A73F4)
+I (driver\uart.h)(0x58F98203)
+F (.\ZM470SX-M\radio.c)(0x58E5A563)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\radio.o --omf_browse .\flash\radio.crf --depend .\flash\radio.d)
+I (ZM470SX-M\platform.h)(0x55349C32)
+I (ZM470SX-M\radio.h)(0x559628C9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (ZM470SX-M\sx1276.h)(0x5909A17A)
+F (.\ZM470SX-M\sx1276.c)(0x5909A7E9)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\sx1276.o --omf_browse .\flash\sx1276.crf --depend .\flash\sx1276.d)
+I (ZM470SX-M\platform.h)(0x55349C32)
+I (ZM470SX-M\radio.h)(0x559628C9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (ZM470SX-M\sx1276.h)(0x5909A17A)
+I (ZM470SX-M\sx1276-Hal.h)(0x5535F115)
+I (ZM470SX-M\sx1276-LoRa.h)(0x59099F58)
+F (.\ZM470SX-M\sx1276-Hal.c)(0x5909A8A3)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\sx1276-hal.o --omf_browse .\flash\sx1276-hal.crf --depend .\flash\sx1276-hal.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
+I (ZM470SX-M\platform.h)(0x55349C32)
+I (.\LPC11xx\LPC11xx.h)(0x4C8CFAD2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (.\LPC11xx\system_LPC11xx.h)(0x4C8A73F4)
+F (.\ZM470SX-M\sx1276-LoRa.c)(0x59099F58)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\sx1276-lora.o --omf_browse .\flash\sx1276-lora.crf --depend .\flash\sx1276-lora.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (ZM470SX-M\platform.h)(0x55349C32)
+I (ZM470SX-M\radio.h)(0x559628C9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (ZM470SX-M\sx1276-Hal.h)(0x5535F115)
+I (ZM470SX-M\sx1276.h)(0x5909A17A)
+I (ZM470SX-M\sx1276-LoRaMisc.h)(0x54797427)
+I (ZM470SX-M\sx1276-LoRa.h)(0x59099F58)
+F (.\ZM470SX-M\sx1276-LoRaMisc.c)(0x547830C8)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\driver -I.\USER_CODE -I.\LPC11xx -I.\ZM470SX-M-I "E:\项目资料\400Mhz 模块代码\SX1278\LORA裁剪版\LORA-ZM470SX V1.05\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.0.0\Device\Include\LPC11xx-D__UVISION_VERSION="517" -D_RTE_-o .\flash\sx1276-loramisc.o --omf_browse .\flash\sx1276-loramisc.crf --depend .\flash\sx1276-loramisc.d)
+I (ZM470SX-M\platform.h)(0x55349C32)
+I (ZM470SX-M\sx1276-Hal.h)(0x5535F115)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (ZM470SX-M\sx1276.h)(0x5909A17A)
+I (ZM470SX-M\sx1276-LoRa.h)(0x59099F58)
+I (ZM470SX-M\sx1276-LoRaMisc.h)(0x54797427)

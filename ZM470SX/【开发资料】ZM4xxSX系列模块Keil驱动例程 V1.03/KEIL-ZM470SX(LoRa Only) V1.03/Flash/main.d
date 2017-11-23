@@ -1,0 +1,15 @@
+.\flash\main.o: USER_CODE\main.c
+.\flash\main.o: .\LPC11xx\LPC11xx.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h
+.\flash\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\flash\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\flash\main.o: .\LPC11xx\system_LPC11xx.h
+.\flash\main.o: .\driver\uart.h
+.\flash\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\main.o: .\ZM470SX\platform.h
+.\flash\main.o: .\ZM470SX\radio.h
+.\flash\main.o: .\ZM470SX\sx1276-LoRa.h
+.\flash\main.o: .\ZM470SX\sx1276-Hal.h
+.\flash\main.o: .\ZM470SX\sx1276.h

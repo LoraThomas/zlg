@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\Flash\ZM470S.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\flash\startup_lpc11xx.o"'
+### List of Objects: adding '".\flash\system_lpc11xx.o"'
+### List of Objects: adding '".\flash\core_cm0.o"'
+### List of Objects: adding '".\flash\main.o"'
+### List of Objects: adding '".\flash\uart.o"'
+### List of Objects: adding '".\flash\radio.o"'
+### List of Objects: adding '".\flash\sx1276.o"'
+### List of Objects: adding '".\flash\sx1276-fsk.o"'
+### List of Objects: adding '".\flash\sx1276-fskmisc.o"'
+### List of Objects: adding '".\flash\sx1276-lora.o"'
+### List of Objects: adding '".\flash\sx1276-loramisc.o"'
+### List of Objects: adding '".\flash\sx1276-hal.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\flash\startup_lpc11xx.o" ".\flash\system_lpc11xx.o" ".\flash\core_cm0.o" ".\flash\main.o" ".\flash\uart.o" ".\flash\radio.o" ".\flash\sx1276.o" ".\flash\sx1276-fsk.o" ".\flash\sx1276-fskmisc.o" ".\flash\sx1276-lora.o" ".\flash\sx1276-loramisc.o" ".\flash\sx1276-hal.o" --library_type=microlib --strict --scatter ".\Flash\ZM470S.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Flash\ZM470S.map" -o ".\Flash\ZM470S.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Flash\ZM470S.axf'
+### ADS-LD Command File: '.\Flash\ZM470S.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Flash\ZM470S.lnp', Handle=0x000002C4
+### Writing '.lnp' file
+### ADS-LD Command file '.\Flash\ZM470S.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

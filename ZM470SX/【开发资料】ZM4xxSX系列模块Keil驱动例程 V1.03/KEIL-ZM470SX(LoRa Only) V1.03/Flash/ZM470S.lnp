@@ -1,0 +1,15 @@
+--cpu Cortex-M0+
+".\flash\startup_lpc11xx.o"
+".\flash\system_lpc11xx.o"
+".\flash\core_cm0.o"
+".\flash\main.o"
+".\flash\uart.o"
+".\flash\radio.o"
+".\flash\sx1276.o"
+".\flash\sx1276-hal.o"
+".\flash\sx1276-lora.o"
+".\flash\sx1276-loramisc.o"
+--library_type=microlib --strict --scatter ".\Flash\ZM470S.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\ZM470S.map" -o .\Flash\ZM470S.axf

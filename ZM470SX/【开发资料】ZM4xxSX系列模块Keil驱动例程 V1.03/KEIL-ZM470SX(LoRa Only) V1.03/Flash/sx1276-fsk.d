@@ -1,0 +1,10 @@
+.\flash\sx1276-fsk.o: ZM470SX\sx1276-Fsk.c
+.\flash\sx1276-fsk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\sx1276-fsk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\flash\sx1276-fsk.o: ZM470SX\platform.h
+.\flash\sx1276-fsk.o: ZM470SX\radio.h
+.\flash\sx1276-fsk.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\sx1276-fsk.o: ZM470SX\sx1276-Hal.h
+.\flash\sx1276-fsk.o: ZM470SX\sx1276.h
+.\flash\sx1276-fsk.o: ZM470SX\sx1276-FskMisc.h
+.\flash\sx1276-fsk.o: ZM470SX\sx1276-Fsk.h

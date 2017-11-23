@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\keil-zm470SX V1.00\ZM470S.uvproj
+Project File Date:  08/22/2015
+
+<h2>Output:</h2>
+Load "E:\\keil-zm470SX V1.00\\Flash\\ZM470S.AXF" 
+Set JLink Project File to "E:\keil-zm470SX V1.00\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N : 68000009 
+OEM : J-Link-CE 
+Feature(s) : JFlash, FlashDL, RDI, FlashBP, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info:   FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x0BB11477
+* JLink Info:   FPUnit: 4 code (BP) slots and 0 literal slots
+* JLink Info: Found Cortex-M0 r0p0, Little endian.
+ 
+Target info:
+------------
+Device: LPC1114/302
+VTarget = 1.902V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 4
+Software-Breakpoints: 8192
+Watchpoints:          2
+JTAG speed: 100 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Rebuild target 'LPC1114 Flash'
+assembling startup_LPC11xx.s...
+compiling system_LPC11xx.c...
+compiling core_cm0.c...
+compiling main.c...
+compiling Uart.c...
+compiling radio.c...
+compiling sx1276.c...
+compiling sx1276-Fsk.c...
+compiling sx1276-FskMisc.c...
+compiling sx1276-LoRa.c...
+compiling sx1276-LoRaMisc.c...
+compiling sx1276-Hal.c...
+linking...
+Program Size: Code=19288 RO-data=816 RW-data=184 ZI-data=1712  
+FromELF: creating hex file...
+".\Flash\ZM470S.axf" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,9 @@
+.\flash\si4432.o: driver\si4432.c
+.\flash\si4432.o: driver\si4432.h
+.\flash\si4432.o: .\LPC11xx\LPC11xx.h
+.\flash\si4432.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h
+.\flash\si4432.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\si4432.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\flash\si4432.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\flash\si4432.o: .\LPC11xx\system_LPC11xx.h
+.\flash\si4432.o: driver\uart.h

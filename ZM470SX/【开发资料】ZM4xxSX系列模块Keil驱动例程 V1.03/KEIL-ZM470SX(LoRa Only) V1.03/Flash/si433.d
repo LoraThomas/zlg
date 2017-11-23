@@ -1,0 +1,9 @@
+.\Flash\si433.o: driver\si433.c
+.\Flash\si433.o: driver\si433.h
+.\Flash\si433.o: .\LPC11xx\LPC11xx.h
+.\Flash\si433.o: C:\Keil\ARM\CMSIS\Include\core_cm0.h
+.\Flash\si433.o: C:\Keil\ARM\RV31\Inc\stdint.h
+.\Flash\si433.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\Flash\si433.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\Flash\si433.o: .\LPC11xx\system_LPC11xx.h
+.\Flash\si433.o: driver\uart.h

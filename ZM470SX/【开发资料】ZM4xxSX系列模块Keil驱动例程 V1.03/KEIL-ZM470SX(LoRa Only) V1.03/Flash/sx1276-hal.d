@@ -1,0 +1,10 @@
+.\flash\sx1276-hal.o: ZM470SX\sx1276-Hal.c
+.\flash\sx1276-hal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\sx1276-hal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\flash\sx1276-hal.o: ZM470SX\platform.h
+.\flash\sx1276-hal.o: .\LPC11xx\LPC11xx.h
+.\flash\sx1276-hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h
+.\flash\sx1276-hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\flash\sx1276-hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\flash\sx1276-hal.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\flash\sx1276-hal.o: .\LPC11xx\system_LPC11xx.h
